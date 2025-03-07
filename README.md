@@ -12,6 +12,7 @@ with Heic Converter.exe and then run the setup-script.iss file with iscc (Inno C
 to generate the Heic Converter-Setup.exe file
 
 # My Powershell Profile Aliases
+```
 function inno-compile {
     param(
         [string]$path
@@ -51,4 +52,4 @@ function compile-py {
 }
 
 Set-Alias py-compile compile-py
-
+```
