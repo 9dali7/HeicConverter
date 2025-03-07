@@ -12,7 +12,7 @@ with Heic Converter.exe and then run the setup-script.iss file with iscc (Inno C
 to generate the Heic Converter-Setup.exe file
 
 # My Powershell Profile Aliases
-function inno-compile {
+/**function inno-compile {
     param(
         [string]$path
     )
@@ -25,12 +25,12 @@ function inno-compile {
         $issFilePath = Resolve-Path $path  # Resolves relative path to absolute if needed
         & "$innoPath" "$issFilePath"
     }
-}
+/**}
 
-Set-Alias iscc inno-compile
+/**Set-Alias iscc inno-compile
 
 
-function compile-py {
+/**function compile-py {
     $AppName = Read-Host "Please Input The Program Name"
 
     pyinstaller --onefile --windowed --icon=icon.ico main.py
@@ -48,7 +48,6 @@ function compile-py {
     Remove-Item -Force -Recurse .\main.spec -ErrorAction SilentlyContinue
 
     Remove-Item -Force -Recurse ".\$AppName.exe" -ErrorAction SilentlyContinue
-}
+/**}
 
-Set-Alias py-compile compile-py
-
+/**Set-Alias py-compile compile-py
