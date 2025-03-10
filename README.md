@@ -11,6 +11,9 @@ To make it simple compile the main.py file with pyinstaller and rename the .exe 
 with Heic Converter.exe and then run the setup-script.iss file with iscc (Inno Compiler)
 to generate the Heic Converter-Setup.exe file
 
+# Pip Setup
+pip install -r requirements.txt
+
 # My Powershell Profile Aliases
 ```
 function inno-compile {
