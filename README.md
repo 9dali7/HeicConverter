@@ -4,7 +4,7 @@ A Simple Program For Windows That Converts Heic Images In PNG Format Built In Py
 # Author
 Dalibor Jovanovic
 
-# How Does The Program Works
+# How Does The Program Work?
 The Program Search For A Folder Called HeicConverts on the Desktop, If Not Found It Will Be Created.
 The User Must Put The .heic Images Inside The HeicConverts Folder And When The Program Get Launched It Will Convert The Images. After The Conversion The Original .heic Files Will Be Moved Inside HeicConverts\Heic While The Converted Png Images Will Be Moved Inside HeicConverts\Png Folder.
 
