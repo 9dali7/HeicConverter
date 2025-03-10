@@ -1,5 +1,5 @@
-#define MyAppName "HeicConverter"
-#define MyAppExeName "HeicConverter.exe"
+#define MyAppName "Heic Converter"
+#define MyAppExeName "Heic Converter.exe"
 #define MyAppVersion "1.0"
 #define MyAppPublisher "Dalibor Jovanovic"
 #define MyAppIcon "icon.ico"
