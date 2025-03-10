@@ -6,7 +6,7 @@ Dalibor Jovanovic
 
 # How Does The Program Works
 The Program Search For A Folder Called HeicConverts on the Desktop, If Not Found It Will Be Created.
-The User Must Put The .heic Images Inside The HeicConverts Folder And When The Program Get Launched It Will Convert The Images. After The Conversion The Original .heic Files Will Be Moved Inside HeicConverts\Heic While The Converted Png Images Will Be Moves Inside HeicConverts\Png Folder.
+The User Must Put The .heic Images Inside The HeicConverts Folder And When The Program Get Launched It Will Convert The Images. After The Conversion The Original .heic Files Will Be Moved Inside HeicConverts\Heic While The Converted Png Images Will Be Moved Inside HeicConverts\Png Folder.
 
 # My Setup Configuration
 To make the executable and then the setup program I use pyinstaller and Inno setup.
