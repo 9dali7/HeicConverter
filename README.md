@@ -12,7 +12,9 @@ with Heic Converter.exe and then run the setup-script.iss file with iscc (Inno C
 to generate the Heic Converter-Setup.exe file
 
 # Pip Setup
+```
 pip install -r requirements.txt
+```
 
 # My Powershell Profile Aliases
 ```
